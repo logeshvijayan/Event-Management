@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19A583" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Event" representedClassName="Event" syncable="YES" codeGenerationType="class">
+        <attribute name="eventAddress1" optional="YES" attributeType="String"/>
+        <attribute name="eventDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="eventDescription" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Personal" representedClassName="Personal" syncable="YES" codeGenerationType="class">
+        <attribute name="about" optional="YES" attributeType="String"/>
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Personal" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Event" positionX="-63" positionY="9" width="128" height="103"/>
+    </elements>
+</model>
